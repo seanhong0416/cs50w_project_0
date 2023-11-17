@@ -1,0 +1,14 @@
+#search_methods{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search_methods input{
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

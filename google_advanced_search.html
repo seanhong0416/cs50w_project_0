@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Image Search
+        </title>
+        <link href="styles_mutual.css" rel="stylesheet">
+        <link href="styles_advanced_search.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="link_section">
+            <div id="link_section">
+                <a class="links" href="index.html">&lt Go Back</a>
+            </div>
+        </div>
+        
+        <h1>Advanced Search</h1>
+        
+        <hr>
+
+        <form action="https://www.google.com/search">
+            <div id="advanced_search_table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Search with the following conditions...</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="input_type">all these words:</td>
+                            <td class="input_grid">
+                                <input type="text" name="as_q">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="input_type">this exact word or phrase:</td>
+                            <td class="input_grid">
+                                <input type="text" name="as_epq">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="input_type">any of these words:</td>
+                            <td class="input_grid">
+                                <input type="text" name="as_oq">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="input_type">none of these words:</td>
+                            <td class="input_grid">
+                                <input type="text" name="as_eq">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td id="submit_button_grid">
+                                <input type="submit" value="Advanced Search">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+
+    </body>
+</html>

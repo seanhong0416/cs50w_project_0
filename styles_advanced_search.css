@@ -1,0 +1,64 @@
+h1,h2,h3{
+    text-align: left;
+    width: 200px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1{
+    font-size: 20px;
+    color:indianred;
+}
+
+hr{
+    color: gainsboro;
+    background-color: gainsboro;
+    height: 1px;
+}
+
+#advanced_search_table{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th{
+}
+
+td,th{
+    text-align: left;
+    padding: 20px;
+}
+
+.input_type{
+    width: 250px;
+}
+
+.input_grid input{
+    width: 100%;
+}
+
+#submit_button_grid{
+    text-align: right;
+    padding-right: 15px;
+}
+
+#submit_button_grid input{
+    height: 30px;
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    font-size: 16px;
+}
+
+#submit_button_grid input:hover{
+    background-image:linear-gradient(to bottom, dodgerblue, royalblue)
+}

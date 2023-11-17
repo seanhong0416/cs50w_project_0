@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI',Arial,'Microsoft Jhenghei',sans-serif;
+}
+
+#link_section{
+    text-align: right;
+    margin: 20px;
+}
+
+#link_section a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#link_section a:hover{
+    text-decoration: underline;
+}
+
+.main_page_title{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 64px;
+}
+
+.main_page_form input{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#search_bar{
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 450px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search_button:hover{
+    box-shadow: 0px 0px 2px gray;
+}
